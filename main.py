@@ -10,8 +10,8 @@ from sklearn.model_selection import train_test_split
 import numpy as np
 
 # Paths
-training_csv_path = r"C:\Users\Mateusz\Downloads\archive\cv-valid-train.csv"
-audio_dir = r"C:\Users\Mateusz\Downloads\archive\cv-valid-train\cv-valid-train"
+training_csv_path = r"PATH_TO_CSV"
+audio_dir = r"PATH_TO_AUDIO"
 model_save_path = "enhanced_gender_detection_model.h5"
 
 # Preprocessing Function
