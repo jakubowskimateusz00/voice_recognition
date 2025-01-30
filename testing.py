@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 
 # Paths
 model_path = "enhanced_gender_detection_model.h5"
-test_audio_dir = r"C:\Users\Mateusz\Downloads\archive\cv-valid-test\cv-valid-test"
+test_audio_dir = r"PATH_TO_TEST_AUDIO"
 output_excel_path = "gender_predictions_updated.xlsx"
 
 # Load the Model
